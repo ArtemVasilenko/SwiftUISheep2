@@ -1,16 +1,19 @@
-//
-//  ContentView.swift
-//  SwiftUISheep2
-//
-//  Created by Артем on 7/18/19.
-//  Copyright © 2019 Артем. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        
+        NavigationView {
+            List(dataSheep) {
+            sheep in
+                
+                NavigationLink(destination: SheepViewRow(animal: sheep)) {
+                    
+                    SheepViewRow(animal: sheep)
+                }
+            }.navigationBarTitle("Sheep")
+        }
+        
     }
 }
 

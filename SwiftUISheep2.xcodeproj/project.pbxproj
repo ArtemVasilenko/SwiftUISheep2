@@ -10,9 +10,12 @@
 		ACC32BDB22E0D0C000B23498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BDA22E0D0C000B23498 /* AppDelegate.swift */; };
 		ACC32BDD22E0D0C000B23498 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BDC22E0D0C000B23498 /* SceneDelegate.swift */; };
 		ACC32BDF22E0D0C000B23498 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BDE22E0D0C000B23498 /* ContentView.swift */; };
-		ACC32BE122E0D0C400B23498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC32BE022E0D0C400B23498 /* Assets.xcassets */; };
 		ACC32BE422E0D0C400B23498 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC32BE322E0D0C400B23498 /* Preview Assets.xcassets */; };
 		ACC32BE722E0D0C400B23498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC32BE522E0D0C400B23498 /* LaunchScreen.storyboard */; };
+		ACC32BEF22E0D15A00B23498 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BEE22E0D15A00B23498 /* Model.swift */; };
+		ACC32BF122E0D1AD00B23498 /* SheepStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BF022E0D1AC00B23498 /* SheepStorage.swift */; };
+		ACC32BF322E0D1F400B23498 /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC32BF222E0D1F400B23498 /* Assets 2.xcassets */; };
+		ACC32BF722E0D29700B23498 /* SheepViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BF622E0D29700B23498 /* SheepViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		ACC32BDA22E0D0C000B23498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC32BDC22E0D0C000B23498 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACC32BDE22E0D0C000B23498 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ACC32BE022E0D0C400B23498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC32BE322E0D0C400B23498 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACC32BE622E0D0C400B23498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACC32BE822E0D0C400B23498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC32BEE22E0D15A00B23498 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ACC32BF022E0D1AC00B23498 /* SheepStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepStorage.swift; sourceTree = "<group>"; };
+		ACC32BF222E0D1F400B23498 /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets 2.xcassets"; path = "../../../../../../../Downloads/Assets 2.xcassets"; sourceTree = "<group>"; };
+		ACC32BF622E0D29700B23498 /* SheepViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		ACC32BCE22E0D0C000B23498 = {
 			isa = PBXGroup;
 			children = (
+				ACC32BF622E0D29700B23498 /* SheepViewRow.swift */,
 				ACC32BD922E0D0C000B23498 /* SwiftUISheep2 */,
 				ACC32BD822E0D0C000B23498 /* Products */,
 			);
@@ -59,7 +66,9 @@
 				ACC32BDA22E0D0C000B23498 /* AppDelegate.swift */,
 				ACC32BDC22E0D0C000B23498 /* SceneDelegate.swift */,
 				ACC32BDE22E0D0C000B23498 /* ContentView.swift */,
-				ACC32BE022E0D0C400B23498 /* Assets.xcassets */,
+				ACC32BEE22E0D15A00B23498 /* Model.swift */,
+				ACC32BF022E0D1AC00B23498 /* SheepStorage.swift */,
+				ACC32BF222E0D1F400B23498 /* Assets 2.xcassets */,
 				ACC32BE522E0D0C400B23498 /* LaunchScreen.storyboard */,
 				ACC32BE822E0D0C400B23498 /* Info.plist */,
 				ACC32BE222E0D0C400B23498 /* Preview Content */,
@@ -134,8 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC32BE722E0D0C400B23498 /* LaunchScreen.storyboard in Resources */,
+				ACC32BF322E0D1F400B23498 /* Assets 2.xcassets in Resources */,
 				ACC32BE422E0D0C400B23498 /* Preview Assets.xcassets in Resources */,
-				ACC32BE122E0D0C400B23498 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC32BF122E0D1AD00B23498 /* SheepStorage.swift in Sources */,
 				ACC32BDB22E0D0C000B23498 /* AppDelegate.swift in Sources */,
 				ACC32BDD22E0D0C000B23498 /* SceneDelegate.swift in Sources */,
+				ACC32BF722E0D29700B23498 /* SheepViewRow.swift in Sources */,
 				ACC32BDF22E0D0C000B23498 /* ContentView.swift in Sources */,
+				ACC32BEF22E0D15A00B23498 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
