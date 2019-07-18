@@ -7,13 +7,14 @@ struct ContentView : View {
             List(dataSheep) {
             sheep in
                 
-                NavigationLink(destination: SheepViewRow(animal: sheep)) {
+                NavigationLink(destination: AnswearSheepView(anim: sheep)) {
+                    
                     
                     SheepViewRow(animal: sheep)
+                    
                 }
             }.navigationBarTitle("Sheep")
         }
-        
     }
 }
 

@@ -16,6 +16,7 @@
 		ACC32BF122E0D1AD00B23498 /* SheepStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BF022E0D1AC00B23498 /* SheepStorage.swift */; };
 		ACC32BF322E0D1F400B23498 /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC32BF222E0D1F400B23498 /* Assets 2.xcassets */; };
 		ACC32BF722E0D29700B23498 /* SheepViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BF622E0D29700B23498 /* SheepViewRow.swift */; };
+		ACC32BF922E0D85000B23498 /* AnswearSheepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC32BF822E0D85000B23498 /* AnswearSheepView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ACC32BF022E0D1AC00B23498 /* SheepStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepStorage.swift; sourceTree = "<group>"; };
 		ACC32BF222E0D1F400B23498 /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets 2.xcassets"; path = "../../../../../../../Downloads/Assets 2.xcassets"; sourceTree = "<group>"; };
 		ACC32BF622E0D29700B23498 /* SheepViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheepViewRow.swift; sourceTree = "<group>"; };
+		ACC32BF822E0D85000B23498 /* AnswearSheepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswearSheepView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				ACC32BF622E0D29700B23498 /* SheepViewRow.swift */,
+				ACC32BF822E0D85000B23498 /* AnswearSheepView.swift */,
 				ACC32BD922E0D0C000B23498 /* SwiftUISheep2 */,
 				ACC32BD822E0D0C000B23498 /* Products */,
 			);
@@ -157,6 +160,7 @@
 			files = (
 				ACC32BF122E0D1AD00B23498 /* SheepStorage.swift in Sources */,
 				ACC32BDB22E0D0C000B23498 /* AppDelegate.swift in Sources */,
+				ACC32BF922E0D85000B23498 /* AnswearSheepView.swift in Sources */,
 				ACC32BDD22E0D0C000B23498 /* SceneDelegate.swift in Sources */,
 				ACC32BF722E0D29700B23498 /* SheepViewRow.swift in Sources */,
 				ACC32BDF22E0D0C000B23498 /* ContentView.swift in Sources */,

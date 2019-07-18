@@ -9,7 +9,6 @@
 import SwiftUI
 
 
-
 struct SheepViewRow : View {
     var animal: Sheep
     var body: some View {
